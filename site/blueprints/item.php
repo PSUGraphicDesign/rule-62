@@ -5,12 +5,10 @@ pages:
   hide: true
 files: true
 fields:
-  title: 
-    label: Title
-    type:  text
-  name:
-    label: Name
-    type: text
   title:
-    label: Price
+    label: name
     type: text
+  name:
+    label: price
+    type: text
+
