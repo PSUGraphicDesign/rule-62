@@ -11,6 +11,12 @@ fields:
   text:
     label: Description
     type:  textarea
+  date:
+    label: Date
+    type: date
+  url:
+    label: URL
+    type: url
   categories:
     label: Groups
     type: checkboxes
