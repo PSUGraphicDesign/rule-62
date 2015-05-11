@@ -6,9 +6,9 @@ pages:
 files: 
   hide: true
 fields:
-  name:
-    label: Name
-    type: text
+  title:
+    label: Title
+    type:  text
   email:
     label: Email
     type: email
