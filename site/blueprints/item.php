@@ -8,10 +8,9 @@ fields:
   title: 
     label: Title
     type:  text
-  title:
-    label: item name
+  name:
+    label: Name
     type: text
-  number:
-    label: number
-    type: number
-
+  title:
+    label: Price
+    type: text
