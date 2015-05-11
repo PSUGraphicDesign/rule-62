@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: contacts
-pages: contact
+pages: Contact
 files: 
   hide: true
 fields:
