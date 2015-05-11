@@ -11,12 +11,10 @@ fields:
   text:
     label: Description
     type:  textarea
-fields:
   categories:
     label: Groups
     type: checkboxes
-    default:
-      - AA
+    default: aa
     options:
       aa: Alcoholics Anonymous
       al-anon: Al Anon
