@@ -14,3 +14,11 @@ fields:
   text:
     label: Text
     type:  textarea
+  program:
+    label: Program Affiliation
+    type: checkboxes
+    options:
+      AA: AA
+      Al-Anon: Al-Anon
+      ALA-Teen: ALA-Teen
+      Rule62: Rule62
