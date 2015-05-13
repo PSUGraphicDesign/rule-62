@@ -1,9 +1,9 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Contact
-pages: 
+pages:
   hide: true
-files: 
+files:
   hide: true
 fields:
   title:
@@ -16,7 +16,3 @@ fields:
   phone:
     label: Phone
     type: tel
-
-
-
-
