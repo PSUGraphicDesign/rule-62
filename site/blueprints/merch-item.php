@@ -8,6 +8,6 @@ fields:
   title:
     label: Product Name
     type: text
-  name:
+  price:
     label: Price
     type: text
