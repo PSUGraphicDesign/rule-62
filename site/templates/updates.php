@@ -1,8 +1,12 @@
 <? snippet('header') ?>
 
 <main>
-  <section class="hero"></section>
   <section class="content">
+    <article>
+      <div class="column full">
+        <h2><?= $page->title()->html() ?></h2>
+      </div>
+    </article>
     <article>
       <div class="column three-quarters main">
         <? foreach ( $updates as $update ) { ?>
