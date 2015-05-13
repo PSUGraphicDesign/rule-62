@@ -12,4 +12,8 @@
 
     return join($classes, ' ');
   }
+
+  public static function link_for ( $page, $title ) {
+    return html::a($page->url(), $title, ['class' => ($page->isOpen() ? 'active' : null)]);
+  }
 }
