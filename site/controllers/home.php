@@ -1,5 +1,8 @@
 <? return function ($site, $pages, $page) {
   return [
-    'update' => page('news')->children()->sortBy('date', 'desc')->first()
+    'updates' => page('news')->children()->filter(function ($update) {
+      $programs = $update->program()->split();
+      return in_array('Rule62', $programs);
+    })->sortBy('date', 'desc')
   ];
 };

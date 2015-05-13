@@ -1,5 +1,5 @@
 <? return function ($site, $pages, $page) {
   return [
-    'updates' => $page->children()
+    'updates' => $page->visibleChildren()->sortBy('date', 'desc')
   ];
 };
