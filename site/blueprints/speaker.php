@@ -1,21 +1,24 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Speaker
-pages: 
+pages:
   hide: true
-files: true
+files: false
 fields:
   title:
-    label: Name
-    type:  text
-  text:
-    label: Description
-    type:  textarea
+    label: Speaker Name
+    type: text
+  bio:
+    label: Biographical Information
+    type: textarea
   date:
     label: Date
     type: date
+  years_in_program:
+    label: Years of Sobriety
+    type: number
   url:
-    label: URL
+    label: Website
     type: url
   categories:
     label: Groups

@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: speakers
+title: Speakers
 pages: speaker
 files:
   hide: true

@@ -1,14 +1,14 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: update
-pages: 
+title: Update
+pages:
   hide: true
-files: true
+files: false
 fields:
   title:
     label: Title
     type:  text
-  date: 
+  date:
     label: Date Posted
     type: date
   text:

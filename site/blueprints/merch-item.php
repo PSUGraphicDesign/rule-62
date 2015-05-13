@@ -1,14 +1,13 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Item
-pages: 
+title: Merch Item
+pages:
   hide: true
 files: true
 fields:
   title:
-    label: name
+    label: Product Name
     type: text
   name:
-    label: price
+    label: Price
     type: text
-

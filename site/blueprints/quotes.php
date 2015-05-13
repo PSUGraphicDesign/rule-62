@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Quotes
-pages: Quote
+pages: quote
 files:
   hide: true
 fields:
