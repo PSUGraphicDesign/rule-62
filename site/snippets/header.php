@@ -15,7 +15,8 @@
     <section>
       <article>
         <div class="column half">
-          <h1><?= $site->title()->htm() ?></h1>
+          <img src= "<?= $site->url() ?>/assets/images/logo.png" height="210" width="200">
+          <!--<h1><?= $site->title()->htm() ?></h1>-->
         </div>
         <div class="column half">
           <? snippet('menu') ?>
