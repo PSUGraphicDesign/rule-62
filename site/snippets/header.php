@@ -9,6 +9,9 @@
 
   <?= css("assets/css/rule-62.css") ?>
 
+  <? js("https://maps.googleapis.com/maps/api/js?v=3.exp") ?>
+  <? js("assets/map.js") ?>
+
 </head>
 <body class="<?= R62::body_classes() ?>">
   <header>
