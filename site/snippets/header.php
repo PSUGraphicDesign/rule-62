@@ -15,8 +15,7 @@
     <section>
       <article>
         <div class="column quarter">
-          <a href="localhost/rule-62/"><img src= "<?= $site->url() ?>/assets/images/logo.png" height="210" width="200"></a>
-          <!--<h1><?= $site->title()->htm() ?></h1>-->
+          <a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/logo.png" height="210" width="200"></a>
         </div>
         <div class="column three-quarters">
           <? snippet('menu') ?>
