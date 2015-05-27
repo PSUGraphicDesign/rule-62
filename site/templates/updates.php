@@ -8,12 +8,12 @@
       </div>
     </article>
     <article>
-      <div class="column three-quarters main">
+      <div class="column two-thirds main">
         <? foreach ( $updates as $update ) { ?>
           <? snippet('news-post', ['post' => $update]) ?>
         <? } ?>
       </div>
-      <div class="column quarter sidebar">
+      <div class="column third sidebar">
         <? snippet('sidebar-home') ?>
       </div>
     </article>

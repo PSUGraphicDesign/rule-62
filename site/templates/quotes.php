@@ -8,7 +8,7 @@
       </div>
     </article>
     <article>
-      <div class="column three-quarters main">
+      <div class="column two-thirds main">
         <? foreach ( $testimonials as $testimonial ) { ?>
           <div class="testimonial">
             <figure>
@@ -30,7 +30,7 @@
           </div>
         <? } ?>
       </div>
-      <div class="column quarter sidebar">
+      <div class="column third sidebar">
         <? snippet('sidebar-testimonials') ?>
       </div>
     </article>
