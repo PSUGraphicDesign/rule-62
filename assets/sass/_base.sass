@@ -29,8 +29,79 @@ figure
   figcaption
     margin: 1em 0 0 0
 
+nav.home
+  padding-top: 60px
+
+  ul
+    list-style-type: none
+    padding: 0
+    margin-left: 0
+
+  li
+    float: left
+    border-bottom: 2px solid $color-grey
+    border-top: 2px solid $color-grey
+
+  li a
+    display: inline-block
+    padding: 8px 32px
+
+  li a:hover, li a.active
+    background-color: $color-black
+    color: $color-white
+
+
+
+nav.sidebar
+  padding-left: 25px
+
+  ul
+    list-style-type: none
+    padding: 0
+    margin-left: 0
+    padding-bottom: 20px
+    margin-bottom: 25px
+
+  li
+    float: left
+    border-bottom: 2px solid $color-grey
+    border-top: 2px solid $color-grey
+    margin-left: -18px
+
+  li a
+    display: inline-block
+    padding: 3px 22px
+
+  li a:hover, li a.active
+    background-color: $color-black
+    color: $color-white
+
+  img
+    padding-left: 32px
+
+
+div.email-sign-up
+  padding: 20px
+  margin-bottom: 20px
+  background-color: $color-gold
+  text-align: center
+  color: $color-white
+  word-spacing: 2px
+
+div.social-media
+  background-color: $color-black
+  color: $color-white
+  padding: 20px
+  text-align: center
+  
+
+  img
+    margin-bottom: -20px
+    margin-left: 15px
+
 // Links
 
 a
   color: inherit
   font-family: $type-family-serif
+  text-decoration: none
