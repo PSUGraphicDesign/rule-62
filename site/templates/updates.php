@@ -3,7 +3,7 @@
 <main>
   <section class="content">
     <article>
-      <div class="column full">
+      <div class="column two-thirds">
         <h2><?= $page->title()->html() ?></h2>
       </div>
     </article>
