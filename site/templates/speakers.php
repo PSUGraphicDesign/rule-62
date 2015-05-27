@@ -11,7 +11,6 @@
       <div class="column two-thirds main">
         <? foreach ( $speakers as $speaker ) { ?>
           <div class="speaker">
-            <h3><?= $speaker->years_in_program()->html() ?> Years</h3>
             <h4><?= $speaker->title()->html() ?></h4>
           </div>
         <? } ?>
