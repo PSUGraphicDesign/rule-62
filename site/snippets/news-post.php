@@ -4,7 +4,7 @@
       <?= $post->date('D, F j, Y') ?>
     </div>
   </div>
-  <h3><?= $post->title() ?></h3>
+  <h3><?= html::a($post->url(), $post->title()) ?></h3>
   <div class="post-content">
     <?= $post->text()->kirbytext() ?>
   </div>

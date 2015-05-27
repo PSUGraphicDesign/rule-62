@@ -3,7 +3,7 @@
 title: Update
 pages:
   hide: true
-files: false
+files: images
 fields:
   title:
     label: Title
