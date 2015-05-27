@@ -14,9 +14,6 @@ fields:
   date:
     label: Date
     type: date
-  years_in_program:
-    label: Years of Sobriety
-    type: number
   url:
     label: Website
     type: url
