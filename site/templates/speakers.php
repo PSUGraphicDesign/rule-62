@@ -4,7 +4,7 @@
   <section>
     <article class="header">
       <div class="column two-thirds">
-        <h1><?= $page->title()->html() ?></h1>
+        <h5><?= $page->title()->html() ?></h5>
       </div>
     </article>
     <article>
