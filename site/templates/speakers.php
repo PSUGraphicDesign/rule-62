@@ -12,9 +12,9 @@
         <? foreach ( $speakers as $speaker ) { ?>
           <div class="speaker">
             <h2><?= $speaker->title()->html() ?></h2>
-            <?= $speaker->bio()->kirbytext() ?>
-            <?= $speaker->date('F jS') ?>
-            <?= $speaker->categories() ?>
+            <p><?= $speaker->bio()->kirbytext() ?></p>
+            <p><?= $speaker->date('F jS') ?></p>
+            <p><b><?= $speaker->categories() ?></b></p>
           </div>
         <? } ?>
       </div>

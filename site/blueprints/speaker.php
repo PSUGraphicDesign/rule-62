@@ -22,5 +22,5 @@ fields:
     type: checkboxes
     default: aa
     options:
-      aa: Alcoholics Anonymous
-      al-anon: Al Anon
+      Alcoholics Anonymous: Alcoholics Anonymous
+      Al Anon: Al Anon
