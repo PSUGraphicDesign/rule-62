@@ -3,19 +3,22 @@
 <main>
   <section>
     <article class="header">
-      <div class="column full">
-        <h2><?= $page->title()->html() ?></h2>
+      <div class="column two-thirds">
+        <h1><?= $page->title()->html() ?></h1>
       </div>
     </article>
     <article>
-      <div class="column two-thirds main">
+      <div class="column three-quarters main">
         <? foreach ( $speakers as $speaker ) { ?>
           <div class="speaker">
-            <h4><?= $speaker->title()->html() ?></h4>
+            <h2><?= $speaker->title()->html() ?></h2>
+            <?= $speaker->bio()->kirbytext() ?>
+            <?= $speaker->date('F jS') ?>
+            <?= $speaker->categories() ?>
           </div>
         <? } ?>
       </div>
-      <div class="column third sidebar">
+      <div class="column quarter sidebar">
         <? snippet('sidebar-speakers') ?>
       </div>
     </article>
