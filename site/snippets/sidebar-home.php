@@ -14,5 +14,5 @@
 </div>
 
 <div class="social-media">
-  <h3>Follow Us!<a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/facebook-white.png" height="40" width="40"></a><a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/twitter-white.png" height="40" width="40"></a></h3>
+  <h4>Follow Us!<a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/facebook-white.png" height="40" width="40"></a><a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/twitter-white.png" height="40" width="40"></a></h4>
 </div>
