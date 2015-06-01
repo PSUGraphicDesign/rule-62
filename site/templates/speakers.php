@@ -4,14 +4,13 @@
   <section>
     <article class="header">
       <div class="column two-thirds">
-        <h5><?= $page->title()->html() ?></h5>
+       
       </div>
     </article>
     <article>
       <div class="column three-quarters tablet-two-thirds main">
         <? foreach ( $years as $year => $speakers ) { ?>
           <div class="year" id="year-<?= $year ?>">
-            <h2><?= $year ?></h2>
           </div>
           <div class="speaker-list">
             <? foreach ( $speakers as $speaker ) { ?>
