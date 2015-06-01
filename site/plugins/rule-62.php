@@ -35,4 +35,8 @@
     # Return separately, becayse krsort returns a boolean success, not the array
     return $years;
   }
+
+  public static function random_testimonial () {
+    return page('testimonials')->children()->shuffle()->first();
+  }
 }

@@ -30,3 +30,5 @@
     </li>
   </ul>
 </div>
+
+<? snippet('random-testimonial') ?>
