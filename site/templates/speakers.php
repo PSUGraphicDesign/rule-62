@@ -8,18 +8,33 @@
       </div>
     </article>
     <article>
-      <div class="column three-quarters main">
-        <? foreach ( $speakers as $speaker ) { ?>
-          <div class="speaker">
-            <h2><?= $speaker->title()->html() ?></h2>
-            <p><?= $speaker->bio()->kirbytext() ?></p>
-            <p><?= $speaker->date('F jS') ?></p>
-            <p><b><?= $speaker->categories() ?></b></p>
+      <div class="column three-quarters tablet-two-thirds main">
+        <? foreach ( $years as $year => $speakers ) { ?>
+          <div class="year" id="year-<?= $year ?>">
+            <h2><?= $year ?></h2>
+          </div>
+          <div class="speaker-list">
+            <? foreach ( $speakers as $speaker ) { ?>
+              <div class="speaker">
+                <h2 class="name">
+                  <?= $speaker->title()->html() ?>
+                </h2>
+                <div class="bio">
+                  <?= $speaker->bio()->kirbytext() ?>
+                </div>
+                <div class="date">
+                  <?= $speaker->date('F jS') ?>
+                </div>
+                <div class="organizations">
+                  <?= $speaker->categories() ?>
+                </div>
+              </div>
+            <? } ?>
           </div>
         <? } ?>
       </div>
-      <div class="column quarter sidebar">
-        <? snippet('sidebar-speakers') ?>
+      <div class="column quarter tablet-third sidebar">
+        <? snippet('sidebar-speakers', ['years' => $years]) ?>
       </div>
     </article>
   </section>

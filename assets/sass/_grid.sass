@@ -1,7 +1,11 @@
 article.centered-layout
   text-align: center
+
   & > .column
     text-align: initial
+
+.column-group
+  font-size: 0
 
 .column
   padding: 0 1rem
@@ -10,6 +14,8 @@ article.centered-layout
   font-size: $type-size-base
   position: relative
 
+  .column
+    padding: 0
 
   &.full
     width: 100%
@@ -54,6 +60,9 @@ article.centered-layout
   +tablet
     &.tablet-full
       width: 100%
+
+    &.tablet-two-thirds
+      width: (100% / 3) * 2
 
     &.tablet-half
       width: (100% / 2)
