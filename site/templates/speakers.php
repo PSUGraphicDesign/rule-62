@@ -11,6 +11,7 @@
       <div class="column three-quarters tablet-two-thirds main">
         <? foreach ( $years as $year => $speakers ) { ?>
           <div class="year" id="year-<?= $year ?>">
+            <h3><?= $year ?></h3>
           </div>
           <div class="speaker-list">
             <? foreach ( $speakers as $speaker ) { ?>
