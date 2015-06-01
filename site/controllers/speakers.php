@@ -1,5 +1,5 @@
 <? return function ($site, $pages, $page) {
   return [
-    'speakers' => $page->children()->sortBy('date', 'asort')
+    'years' => R62::speakers_by_year()
   ];
 };
