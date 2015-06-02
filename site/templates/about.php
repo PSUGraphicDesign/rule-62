@@ -1,13 +1,11 @@
 <? snippet('header') ?>
 
 <main>
+  <section class="hero"></section>
   <section class="content">
-
     <article>
       <div class="column two-thirds main">
-        <? foreach ( $updates as $update ) { ?>
-          <? snippet('news-post', ['post' => $update]) ?>
-        <? } ?>
+        Temporary About!
       </div>
       <div class="column third sidebar">
         <? snippet('sidebar-home') ?>
