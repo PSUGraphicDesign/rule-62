@@ -1,5 +1,3 @@
-<ul>
-  <li>Merch</li>
-  <li>Sidebar</li>
-  <li>Content</li>
-</ul>
+<div class="sidebar-merch">
+<h4>All items are available for purchase at Rule 62 meetings</h4>
+</div>

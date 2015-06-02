@@ -8,17 +8,17 @@
       </div>
     </article>
     <article>
-      <div class="column two-thirds main">
+      <div class="column three-quarters main">
         <? foreach ( $merchandise as $item ) { ?>
           <div class="item">
             <? if ( $item->product_image() ) { ?>
-              <?= html::img($item->product_image()->url()) ?>
+              <img src="<?= $item->images()->first()->url() ?>" />
             <? } ?>
             <h3><?= $item->title()->html() ?> — $<?= $item->price()->int() ?></h3>
           </div>
         <? } ?>
       </div>
-      <div class="column third sidebar">
+      <div class="column quarter sidebar">
         <? snippet('sidebar-merch') ?>
       </div>
     </article>
