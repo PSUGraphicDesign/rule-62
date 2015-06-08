@@ -12,7 +12,7 @@
 <div class="email-sign-up">
   <h4>Sign up for the Rule62 Newsletter!</h4>
   <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
 <style type="text/css">
   #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
   /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
