@@ -2,9 +2,9 @@
   <nav>
     <img src="<?= $site->url() ?>/assets/images/coin.png">
     <ul class="column-group">
-      <li class="column third"><a href="">About</li></a>
-      <li class="column third"><a href="">Contact</li></a>
-      <li class="column third"><a href="">Location</li></a>
+      <li class="column third"><a href="http://localhost:8000/about">About</li></a>
+      <li class="column third"><a href="http://localhost:8000/about">Contact</li></a>
+      <li class="column third"><a href="http://localhost:8000/about">Location</li></a>
     </ul>
   </nav>
 </div>
@@ -40,12 +40,12 @@
   <ul class="column-group">
     <li>
       <a href="<?= $site->url() ?>">
-        <img src="<?= $site->url() ?>/assets/images/facebook-white.png" height="40" width="40">
+        <img a href="https://www.facebook.com/pages/Rule-62/139497139457062" src="<?= $site->url() ?>/assets/images/facebook-white.png" height="40" width="40">
       </a>
     </li>
     <li>
       <a href="<?= $site->url() ?>">
-        <img src="<?= $site->url() ?>/assets/images/twitter-white.png" height="40" width="40">
+        <img a href="https://twitter.com/Rule_sixtyt_two" src="<?= $site->url() ?>/assets/images/twitter-white.png" height="40" width="40">
       </a>
     </li>
   </ul>
