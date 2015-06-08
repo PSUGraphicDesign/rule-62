@@ -2,11 +2,6 @@
 
 <main>
   <section>
-    <article class="header">
-      <div class="column two-thirds">
-       
-      </div>
-    </article>
     <article>
       <div class="column three-quarters tablet-two-thirds main">
         <? foreach ( $years as $year => $speakers ) { ?>
