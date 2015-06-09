@@ -17,7 +17,7 @@
 <body class="<?= R62::body_classes() ?>">
   <header>
     <section>
-      <article>
+      <article class="wide">
         <div class="column quarter">
           <a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/logo.png" height="210" width="200"></a>
         </div>
