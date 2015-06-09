@@ -9,10 +9,3 @@ fields:
   title:
     label: Title
     type:  text
-  email:
-    label: Email
-    type: email
-    autocomplete: false
-  phone:
-    label: Phone
-    type: tel

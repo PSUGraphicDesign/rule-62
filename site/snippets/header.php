@@ -9,8 +9,9 @@
 
   <?= css("assets/css/rule-62.css") ?>
 
-  <? js("https://maps.googleapis.com/maps/api/js?v=3.exp") ?>
-  <? js("assets/map.js") ?>
+  <?= js("https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js") ?>
+  <?= js("https://maps.googleapis.com/maps/api/js?v=3.exp") ?>
+  <?= js("assets/js/map.js") ?>
 
 </head>
 <body class="<?= R62::body_classes() ?>">
