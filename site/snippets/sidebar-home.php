@@ -39,13 +39,13 @@
   </h4>
   <ul class="column-group">
     <li>
-      <a href="<?= $site->url() ?>">
-        <img a href="https://www.facebook.com/pages/Rule-62/139497139457062" src="<?= $site->url() ?>/assets/images/facebook-white.png" height="40" width="40">
+      <a href="https://www.facebook.com/pages/Rule-62/139497139457062" target="_blank">
+        <img src="<?= $site->url() ?>/assets/images/facebook-white.png" height="40" width="40">
       </a>
     </li>
     <li>
-      <a href="<?= $site->url() ?>">
-        <img a href="https://twitter.com/Rule_sixtyt_two" src="<?= $site->url() ?>/assets/images/twitter-white.png" height="40" width="40">
+      <a href="https://twitter.com/Rule_sixtyt_two" target="_blank">
+        <img src="<?= $site->url() ?>/assets/images/twitter-white.png" height="40" width="40">
       </a>
     </li>
   </ul>
