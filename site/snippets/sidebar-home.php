@@ -1,6 +1,6 @@
 <div class="sidebar-home">
   <nav>
-    <img src="<?= $site->url() ?>/assets/images/coin.png">
+    <img class="coin" src="<?= $site->url() ?>/assets/images/coin.png">
   </nav>
 </div>
 
