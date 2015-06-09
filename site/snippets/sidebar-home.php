@@ -1,11 +1,6 @@
 <div class="sidebar-home">
   <nav>
     <img src="<?= $site->url() ?>/assets/images/coin.png">
-    <ul class="column-group">
-      <li class="column third"><a href="<?= page('about')->url() ?>">About</li></a>
-      <li class="column third"><a href="<?= page('about')->url() ?>#contact">Contact</li></a>
-      <li class="column third"><a href="<?= page('about')->url() ?>#location">Location</li></a>
-    </ul>
   </nav>
 </div>
 
