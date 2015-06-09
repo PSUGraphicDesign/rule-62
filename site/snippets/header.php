@@ -18,7 +18,7 @@
   <header>
     <section>
       <article class="wide">
-        <div class="column quarter">
+        <div class="column fifth">
           <a href="<?= $site->url() ?>"><img src="<?= $site->url() ?>/assets/images/logo.png" height="210" width="200"></a>
         </div>
         <div class="column three-quarters">
