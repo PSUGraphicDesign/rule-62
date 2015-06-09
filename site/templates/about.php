@@ -7,6 +7,7 @@
       <div class="column two-thirds main">
         <?= $page->text()->kirbytext() ?>
         <div data-center-lat="<?= $page->location()->json('lat') ?>" data-center-lng="<?= $page->location()->json('lng') ?>" data-zoom="<?= c::get('place.defaults.zoom') ?>" id="map-canvas" class="map-canvas"></div>
+        <p> Parking Map </p>
         <?= $page->directions()->kirbytext() ?>
       </div>
       <div class="column third sidebar">

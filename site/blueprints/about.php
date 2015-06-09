@@ -17,10 +17,10 @@ fields:
     autocomplete: false
   phone:
     label: Phone
-    type: tel
+    type: tel  
   location:
     label: Location
     type: place
   directions:
-    label: Driving Directions & Parking Information
+    label: Driving Directions &amp; Parking Information
     type: textarea
