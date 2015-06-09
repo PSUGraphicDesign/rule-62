@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Merchandise Collection
-pages: merch-item
+pages: merchitem
 files: false
 fields:
   info:
