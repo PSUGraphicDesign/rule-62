@@ -16,7 +16,7 @@
                 <? if ( $item->product_image() ) { ?>
                   <img src="<?= $item->images()->first()->url() ?>" />
                 <? } ?>
-                <h3><?= $item->title()->html() ?> — $<?= $item->price()->int() ?></h3>
+                <h4><?= $item->title()->html() ?> — $<?= $item->price()->int() ?></h4>
               </div>
             </div>
           <? } ?>
