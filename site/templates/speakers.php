@@ -6,14 +6,14 @@
       <div class="column three-quarters tablet-two-thirds main">
         <? foreach ( $years as $year => $speakers ) { ?>
           <div class="year" id="year-<?= $year ?>">
-            <h5><?= $year ?></h5>
+            <h6><?= $year ?></h6>
           </div>
           <div class="speaker-list">
             <? foreach ( $speakers as $speaker ) { ?>
               <div class="speaker">
-                <h2 class="name">
+                <h1 class="name">
                   <?= $speaker->title()->html() ?>
-                </h2>
+                </h1>
                 <div class="bio">
                   <?= $speaker->bio()->kirbytext() ?>
                 </div>
