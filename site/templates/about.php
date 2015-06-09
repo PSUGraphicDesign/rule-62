@@ -10,6 +10,7 @@
         <?= $page->directions()->kirbytext() ?>
       </div>
       <div class="column third sidebar">
+        <p> Contact Us. </p>
         <? snippet('sidebar-about') ?>
       </div>
     </article>
